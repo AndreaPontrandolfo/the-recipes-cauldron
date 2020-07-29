@@ -1,13 +1,21 @@
 {
-  "name": "the_recipes_cauldron",
+  "name": "the-recipes-cauldron",
   "version": "1.0.0",
   "description": "Blog about food recipes",
+  "author": "Andrea Pontrandolfo",
+  "license": "MIT",
+  "homepage": "https://github.com/AndreaPontrandolfo/the-recipes-cauldron",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreaPontrandolfo/the-recipes-cauldron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreaPontrandolfo/the-recipes-cauldron/issues"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "andrea",
-  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.2",
