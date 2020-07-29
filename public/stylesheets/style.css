@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.logo {
+    margin: auto;
+}
+
+* {
+    font-family: 'Indie Flower', cursive;
+}
+
+.Quote {
+    background: url('../images/joanie-simon-353427-unsplash_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+}

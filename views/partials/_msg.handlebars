@@ -1,0 +1,19 @@
+<div class="container">
+    {{#if success_msg}}
+        <div class="alert alert-success">
+            {{success_msg}}
+        </div>
+    {{/if}}
+    {{#if error_msg}}
+        <div class="alert alert-danger">
+            {{error_msg}}
+        </div>
+    {{/if}}
+    {{#if ValidationErrorsMessagesString_msg }}
+        <ul class="list-group">
+            {{#each ValidationErrorsMessagesString_msg}}
+                <li class="list-group-item list-group-item-danger">{{ this.msg }}</li>
+            {{/each}}
+        </ul>
+    {{/if}}
+</div>
