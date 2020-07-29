@@ -30,14 +30,14 @@ yarn install
 yarn run start
 ```
 
-## Features & TechStack
+## Features
 
 * Fullstack app
 * Rest architecture
 * CRUD operations
 * Serverside templating
 
-## TechStack
+## Tech Stack
 
 * Server: Node.js and Express
 * Database: MongoDB and Mongoose
