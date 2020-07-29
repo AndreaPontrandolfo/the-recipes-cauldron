@@ -30,11 +30,24 @@ yarn install
 yarn run start
 ```
 
+## Features & TechStack
+
+* Fullstack app
+* Rest architecture
+* CRUD operations
+* Serverside templating
+
+## TechStack
+
+* Server: Node.js and Express
+* Database: MongoDB and Mongoose
+* Authentication: [Passport.js](http://www.passportjs.org/)
+* Serverside rendering engine: [Handlebars](https://handlebarsjs.com/)
+
 ## Author
 
 👤 **Andrea Pontrandolfo**
 
-* Website: Andrea Pontrandolfo
 * Github: [@AndreaPontrandolfo](https://github.com/AndreaPontrandolfo)
 
 ## 🤝 Contributing
